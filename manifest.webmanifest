@@ -1,0 +1,17 @@
+{
+  "name": "Caderno do Vaqueiro",
+  "short_name": "Caderno",
+  "description": "Caderno de campo das Fazendas Chapadão e Serro Azul: anota nascimentos, pesagens, pasto e doenças e calcula os índices.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3EEE6",
+  "theme_color": "#B4441E",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

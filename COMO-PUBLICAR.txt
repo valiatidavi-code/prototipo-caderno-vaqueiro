@@ -1,0 +1,42 @@
+CADERNO DO VAQUEIRO — como colocar no ar e instalar no celular
+===============================================================
+
+O app é um PWA: uma página que vira aplicativo no celular e funciona sem internet.
+Precisa ficar num endereço https. O jeito grátis mais simples é o GitHub Pages.
+
+PARTE 1 — PUBLICAR (uma vez só, uns 10 minutos, no computador)
+--------------------------------------------------------------
+1. Crie uma conta grátis em github.com.
+2. Clique em "New repository". Nome: caderno-vaqueiro. Marque "Public". Crie.
+3. Na página do repositório, clique em "uploading an existing file" e arraste
+   TODOS os arquivos desta pasta (index.html, sw.js, manifest.webmanifest e os
+   3 ícones .png). Clique em "Commit changes".
+4. Vá em Settings → Pages. Em "Branch", escolha "main" e a pasta "/ (root)". Salve.
+5. Espere 1 ou 2 minutos. O endereço vai aparecer no topo dessa página, tipo:
+   https://SEU-USUARIO.github.io/caderno-vaqueiro/
+
+PARTE 2 — INSTALAR NO CELULAR DO VAQUEIRO (com sinal, uma vez só)
+------------------------------------------------------------------
+Mande o link pelo WhatsApp. Ele abre e:
+
+ANDROID (Chrome): toque no botão "Instalar" no topo do app,
+  ou no menu ⋮ → "Instalar app" / "Adicionar à tela inicial".
+IPHONE (Safari): toque em Compartilhar (quadrado com seta) →
+  "Adicionar à Tela de Início".
+
+Pronto: aparece o ícone da régua na tela. Daqui pra frente abre sem internet.
+
+PARTE 3 — USO NO DIA A DIA
+--------------------------
+- Primeiro uso de verdade: Relatório → "Começar do zero" (apaga os exemplos).
+  O rebanho base continua sendo o caderno de 21/07/2026.
+- Tudo fica salvo no próprio celular.
+- Uma vez por semana, com sinal: Relatório → "Copiar para o WhatsApp"
+  (resumo pra produtora) e "Copiar backup" (cópia de segurança).
+- Trocou de celular? Instala de novo, cola o backup em "Restaurar backup".
+
+ATUALIZAR O APP
+---------------
+Troque os arquivos no GitHub e, no sw.js, mude a linha
+  const VERSAO = "caderno-v1";   para   "caderno-v2"  (e assim por diante).
+Na próxima vez que o celular abrir o app com sinal, ele baixa a versão nova.
